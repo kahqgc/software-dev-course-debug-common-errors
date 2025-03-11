@@ -24,7 +24,7 @@ Think about which debugging methods you found most useful and how you might appl
 // Description:
 // This program is intended to display a simple prompt in the console but fails to run.
 
-console.log("Welcome to the bootcamp");
+console.log("Welcome to the bootcamp"); 
 
 
 // What’s Wrong?: added end quotes, end parenthesis, and semicolon
@@ -40,7 +40,7 @@ for (let i = 0; i < numbers.length; i++) {
   console.log(doubled);
 }
 
-// What’s Wrong?
+// What’s Wrong? changed "eight" to 8 to avoid NaN when running function
 
 
 
@@ -60,4 +60,4 @@ function isPrime(num) {
 
 console.log(isPrime(7)); // Expected true but gets false
 
-// What’s Wrong?
+// What’s Wrong? switched the false and true because if a number can be divided by 2 it is not a prime
